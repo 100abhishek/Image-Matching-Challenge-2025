@@ -1,28 +1,51 @@
-# Image-Matching-Challenge-2025 🔍
+# 🧠 Image Matching Challenge 2025
 
-This project demonstrates a deep learning-based Siamese Network to determine if two images are visually similar (a "match") or not (a "non-match"). The model has been trained to compare features between image pairs and make predictions based on visual similarity.
-
-It is deployed using a user-friendly Gradio interface for testing and visualization.
-
----
-
-## ✨ Features
-
-- Siamese Neural Network using PyTorch
-- Cosine similarity to determine image similarity
-- Interactive Gradio interface
-- Upload and compare your own image pairs
-- Easy deployment-ready structure
+Welcome to the official repository for the **Image Matching Challenge 2025**!  
+This project presents a deep learning-based solution to automatically determine whether two images represent the same object, scene, or entity. It leverages Siamese Networks for pairwise image comparison and is designed to be interactive, deployable, and extendable.
 
 ---
 
-## 🧠 How It Works
+## 📸 Overview of the Challenge
 
-The Siamese Network uses two identical CNN branches (shared weights) to extract feature vectors from two input images. The network then computes the distance or similarity between these vectors. If the similarity is above a threshold (e.g., 0.5), the pair is considered a match.
+The Image Matching Challenge is focused on building systems that can:
 
-The model outputs a similarity score between 0 and 1. You can use this score to decide if images are the same (1) or different (0).
+- Identify whether two images are a match (represent the same object or scene) or not.
+- Handle a wide variety of input images such as buildings, objects, logos, or daily scenes.
+- Work with different perspectives, lighting conditions, and resolutions.
+- Predict similarity scores and generate match/non-match classifications.
+
+The core objective is to train and evaluate a model that can distinguish between image pairs by learning meaningful embeddings through deep learning.
 
 ---
 
-## 🗂️ Folder Structure
+## 🧠 Technologies Used
 
+| Component            | Description                                   |
+|----------------------|-----------------------------------------------|
+| Python               | Programming language                          |
+| PyTorch              | Deep learning framework for model training    |
+| Torchvision          | Pre-trained CNN architectures (e.g., ResNet) |
+| Gradio               | For building a simple web interface           |
+| OpenCV / Pillow      | Image loading and preprocessing               |
+| NumPy                | Array operations                              |
+
+---
+
+## 🗂️ Project Structure
+
+├── app.py # Gradio app for image matching ├── model.py # Siamese network architecture ├── siamese_model.pth # Trained model weights ├── submission.csv # Output predictions for evaluation ├── requirements.txt # List of Python dependencies └── README.md # Documentation (this file)
+
+
+---
+
+## ⚙️ Running in Google Colab (No Setup Required)
+
+1. Open Google Colab at [colab.research.google.com](https://colab.research.google.com).
+2. Upload the following files to your Colab environment:
+   - `model.py`
+   - `app.py`
+   - `siamese_model.pth`
+3. Install required dependencies:
+
+```python
+!pip install torch torchvision gradio Pillow numpy
