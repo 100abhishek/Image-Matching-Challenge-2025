@@ -1,0 +1,16 @@
+image1,image2,prediction
+baalshamin_182z.png,baalshamin_25.png,1
+baalshamin_182z.png,lizard_00195.png,1
+baalshamin_182z.png,lizard_00203.png,1
+baalshamin_182z.png,sacre_coeur_28088482_1061487806.png,1
+baalshamin_182z.png,sacre_coeur_30642459_5864476232.png,1
+baalshamin_25.png,lizard_00195.png,1
+baalshamin_25.png,lizard_00203.png,1
+baalshamin_25.png,sacre_coeur_28088482_1061487806.png,1
+baalshamin_25.png,sacre_coeur_30642459_5864476232.png,1
+lizard_00195.png,lizard_00203.png,1
+lizard_00195.png,sacre_coeur_28088482_1061487806.png,1
+lizard_00195.png,sacre_coeur_30642459_5864476232.png,1
+lizard_00203.png,sacre_coeur_28088482_1061487806.png,1
+lizard_00203.png,sacre_coeur_30642459_5864476232.png,1
+sacre_coeur_28088482_1061487806.png,sacre_coeur_30642459_5864476232.png,1
