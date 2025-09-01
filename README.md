@@ -33,7 +33,18 @@ The core objective is to train and evaluate a model that can distinguish between
 
 ## 🗂️ Project Structure
 
-├── app.py # Gradio app for image matching ├── model.py # Siamese network architecture ├── siamese_model.pth # Trained model weights ├── submission.csv # Output predictions for evaluation ├── requirements.txt # List of Python dependencies └── README.md # Documentation (this file)
+├── app.py
+### Gradio app for image matching
+├── model.py
+### Siamese network architecture
+├── siamese_model.pth
+### Trained model weights 
+├── submission.csv 
+### Output predictions for evaluation 
+├── requirements.txt 
+### List of Python dependencies 
+└── README.md 
+### Documentation (this file)
 
 
 ---
